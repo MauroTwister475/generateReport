@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Poppins;
+  src: url("./assets/Poppins-Regular.ttf");
+}
+
+:root {
+  font-family: Poppins;
+}
+html {
+  overflow-x: hidden;
+}
+
+table {
+  max-width: 100%;
+  overflow-y: scroll;
+  overflow: auto;
+}
+.abre {
+  overflow: auto;
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.696); 
+  transition: all 0.4s ease-in-out;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-body {
+  width: max-content;
+}
+
+table::-webkit-scrollbar {
+  width: 8px;
+}
+
+table::-webkit-scrollbar-track {
+  background: #3d3e4171;
+  border-radius: 2px;
+}
+
+table::-webkit-scrollbar-thumb {
+  background: #c8cecf;
+  border-radius: 14px;
+} 

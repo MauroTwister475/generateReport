@@ -1,0 +1,42 @@
+{
+  "name": "sendMail",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@headlessui/react": "^1.7.17",
+    "@hookform/resolvers": "^3.3.1",
+    "@phosphor-icons/react": "^2.0.13",
+    "@types/axios": "^0.14.0",
+    "@types/react-modal": "^3.16.1",
+    "axios": "^1.5.1",
+    "framer-motion": "^10.16.4",
+    "next": "latest",
+    "printjs": "^1.1.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "^7.46.2",
+    "react-icons": "^4.11.0",
+    "react-modal": "^3.16.1",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}
